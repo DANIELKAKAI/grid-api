@@ -32,6 +32,11 @@ This Django API provides endpoints for calculating closest points on a grid.
    ```bash
       python manage.py runserver
    ```
+   
+6. Run tests:
+   ```bash
+      python manage.py test
+   ```
 
 ## API Endpoints
 ### POST /calculate-closest-points/
