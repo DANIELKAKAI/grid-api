@@ -4,5 +4,5 @@ from main.views import calculate_closest_points
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/calculate-closest-points/', calculate_closest_points, name='calculate_closest_points')
+    path('calculate-closest-points/', calculate_closest_points, name='calculate_closest_points')
 ]
